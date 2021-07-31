@@ -8,6 +8,10 @@ description = "No Nonsense Neovim Gui"
 repository = "https://github.com/neovide/neovide"
 resolver = "2"
 
+[patch.crates-io]
+ring = { git = "https://github.com/ruscur/ring.git", branch = "ppc-0.16.20" }
+skia-safe = { git = "https://github.com/lifning/rust-skia.git", branch = "ppc64le-0.40.2" }
+
 [workspace]
 members = ["neovide-derive"]
 

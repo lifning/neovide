@@ -2095,8 +2095,7 @@ checksum = "f497285884f3fcff424ffc933e56d7cbca511def0c9831a7f9b5f6153e3cc89b"
 [[package]]
 name = "ring"
 version = "0.16.20"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3053cf52e236a3ed746dfc745aa9cacf1b791d846bdaf412f60a8d7d6e17c8fc"
+source = "git+https://github.com/ruscur/ring.git?branch=ppc-0.16.20#3f8f04a1057e286f3b8c5b9e39c9f795b15743cc"
 dependencies = [
  "cc",
  "libc",
@@ -2277,8 +2276,7 @@ dependencies = [
 [[package]]
 name = "skia-bindings"
 version = "0.40.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8e49c0905fe8fa4a4fe348f0ec33a3b3fc78e73f4602c7154d8fb70d4b0aaee2"
+source = "git+https://github.com/lifning/rust-skia.git?branch=ppc64le-0.40.2#325ef95aeaada07e38adb90215c350b904d5630d"
 dependencies = [
  "bindgen",
  "cc",
@@ -2295,8 +2293,7 @@ dependencies = [
 [[package]]
 name = "skia-safe"
 version = "0.40.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "147b9ab328c7c40dbf590151313df9cd721be8c418cfefa2533c9a0c056ef21b"
+source = "git+https://github.com/lifning/rust-skia.git?branch=ppc64le-0.40.2#325ef95aeaada07e38adb90215c350b904d5630d"
 dependencies = [
  "bitflags",
  "lazy_static",
